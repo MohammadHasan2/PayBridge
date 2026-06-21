@@ -1,0 +1,28 @@
+# Docker files and environment
+.env.docker
+.env
+.env.local
+
+# Build artifacts and Maven
+target/
+*.jar
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE and development
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Version control
+.git/
+.gitignore
+
+# Logs
+logs/
+*.log

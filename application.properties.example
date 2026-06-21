@@ -1,0 +1,16 @@
+# Database Configuration (Replace with your values)
+spring.datasource.url=jdbc:postgresql://YOUR_HOST:PORT/DATABASE?sslmode=require
+spring.datasource.username=YOUR_USERNAME
+spring.datasource.password=YOUR_PASSWORD
+
+# JPA/Hibernate Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# Stripe Configuration (Replace with your actual keys)
+stripe.secret-key=sk_test_YOUR_SECRET_KEY
+stripe.webhook.secret=YOUR_WEBHOOK_SECRET
+
+# Application Name
+spring.application.name=demo
